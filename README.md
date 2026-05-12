@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 # AI 理財助理（個股問答）
 
-以 **Streamlit** 呈現的對話式理財助理：使用者以自然語言詢問台股相關問題，系統依 **SDD v2.0** 設計的分層架構，結合 **OpenAI（LangChain）**、**FinMind** 結構化資料與 **Tavily** 新聞搜尋，產出條列化回答並標示資料來源。
+以 **Streamlit** 呈現的對話式理財助理：使用者以自然語言詢問台股相關問題，，結合 **OpenAI（LangChain）**、**FinMind** 結構化資料與 **Tavily** 新聞搜尋，產出條列化回答並標示資料來源。
 
-> 完整系統規格與 Prompt 細節請見 [**SDD.md**](./SDD.md)（Software Design Document v2.0）。  
+
 > FinMind API 端點與參數說明可參考 [**llms-full.txt**](./llms-full.txt)。
 
 ---
@@ -104,14 +104,5 @@ streamlit run app.py
 | §5.1–§5.4 Pipelines | `fact_pipeline.py`、`aggregation_pipeline.py`、`opinion_pipeline.py`、`reasoning_pipeline.py` |
 | §6 Response Generator | `response_generator.py` |
 
-細部 Prompt、錯誤處理與 Fallback 規則以 **SDD.md** 為準。
 
 ---
-
-## 授權
-
-若未另行標示，請依專案擁有者規定使用；提交至公開儲存庫前請確認未包含 API 金鑰或個資。
-=======
-# Router-Based-Financial-AI-Agent
-Router-based AI financial assistant with multi-pipeline reasoning, retrieval grounding, and hallucination defense mechanisms.
->>>>>>> bc9f0fa8f1a8419fe37329855e66558673c63a6d
