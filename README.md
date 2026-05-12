@@ -2,7 +2,7 @@
 # AI 理財助理（個股問答）
 
 以 **Streamlit** 呈現的對話式理財助理：使用者以自然語言詢問台股相關問題，，結合 **OpenAI（LangChain）**、**FinMind** 結構化資料與 **Tavily** 新聞搜尋，產出條列化回答並標示資料來源。
-
+詳細架構請看 **Websearch AI理財助理.pdf**
 
 > FinMind API 端點與參數說明可參考 [**llms-full.txt**](./llms-full.txt)。
 
