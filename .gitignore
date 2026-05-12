@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+.env
+__pycache__
+.pyc
+venv
+.ipynb_checkpoints
+SDD.md
+llms-fukk.txt.env
+.env
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +226,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+>>>>>>> bc9f0fa8f1a8419fe37329855e66558673c63a6d

@@ -1,0 +1,11 @@
+# langchain-openai 1.1.x 需要 langchain-core>=1.2.21；與 0.2.x 混用會出現 ContextOverflowError 匯入錯誤
+langchain>=1.2.0,<2
+langchain-core>=1.2.21,<2
+langchain-openai>=1.1.0,<2
+langchain-community>=0.3.0
+langchain-classic>=1.0.0
+openai>=2.26,<3
+python-dotenv>=1.0.0
+streamlit>=1.28.0
+requests>=2.0.0
+sentence-transformers
